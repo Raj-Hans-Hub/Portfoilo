@@ -75,8 +75,8 @@ const Profile = () => {
         </div>
         {/* end profile name code  */}
         {/* start profile pic code  */}
-        <div className='w-full bg-blue-4000  flex justify-center max-sm:my-15 '>
-        <img src={`${import.meta.env.BASE_URL}a.JPG`}  alt="a" className='md:w-[400px] md:h-[400px] w-[200px] h-[200px] rounded-full border-9 shadow-[0px_0px_10px_white] border-gray-900 rotate-270' />
+        <div className='w-full bg-blue-4000  flex justify-center max-md:my-15 '>
+        <img src={`${import.meta.env.BASE_URL}a.JPG`}  alt="a" className='md:w-[350px] md:h-[350px] w-[200px] h-[200px] rounded-full border-9 shadow-[0px_0px_10px_white] border-gray-900 rotate-270' />
         </div>
 
       </div>

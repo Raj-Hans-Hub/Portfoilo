@@ -4,7 +4,7 @@ const Eduandcer = () => {
   return (
     <>
      <hr className='bg-gray-500 h-[1px] '/>
-      <div  id='edu' className='scroll-m-11  mx-auto container      pb-9 md:h-[50vh] '>
+      <div  id='edu' className='scroll-m-11 max-sm:scroll-mt-20  mx-auto container      pb-9  '>
         <div className='md:text-start    my-9 text-4xl  font-serif max-sm:text-center max-sm:ms-0'>EDUCATION AND CERTIFICECTS</div>
         <div className='flex gap-2 gap-y-5 container mx-auto px-15 flex-col justify-center  items-center md:flex-row'>
 

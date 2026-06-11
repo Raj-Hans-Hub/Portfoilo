@@ -20,7 +20,7 @@ const Skil = () => {
     return (
         <>
         <hr className='bg-gray-500 h-[1px] '/>
-            <section id='skill' ref={sectionRef} className='scroll-mt-11   mx-auto container   '>
+            <section id='skill' ref={sectionRef} className='scroll-mt-11 max-sm:scroll-mt-25  mx-auto container   '>
                 <div className='  text-start  my-9 max-sm:text-center    text-4xl font-serif ' >SKILLS</div>
                 <div className='container flex-col sm:flex-row justify-center  items-center  flex mx-auto   '>
                     {/* start imgage set coding */}

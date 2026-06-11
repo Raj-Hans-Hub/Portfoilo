@@ -2,8 +2,8 @@ import React from 'react'
 
 const Projects = () => {
     return (
-        <>   <hr className='bg-gray-500 h-[1px] '/>
-            <section id='projects' className=' scroll-mt-11 my-9   md:h-screen  container mx-auto '>
+        <>   <hr className='bg-gray-500 h-[1px] mt-20 '/>
+            <section id='projects' className=' scroll-mt-11 my-9 max-sm:scroll-mt-25    container mx-auto '>
                 <div className='text-start  my-3 text-4xl font-serif max-sm:text-center max-sm:ms-0  '>PROJECTS</div>
                 {/* start conding project row */}
                 <div className='flex gap-2  my-15 max-sm:my-0 p-5 px-10 flex flex-col justify-center items-center md:flex-row  '>
