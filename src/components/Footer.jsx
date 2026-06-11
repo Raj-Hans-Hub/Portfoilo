@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { FaWhatsapp } from 'react-icons/fa'
 const Footer = () => {
@@ -59,6 +59,45 @@ const Footer = () => {
   });
     
   };
+ const mibtnref=useRef();
+  const mibtnclick =() => {
+
+    mibtnref.current.style.boxShadow="0px 0px 12px white";  
+    mibtnref.current.style.borderWidth=" 6px ";  
+    
+    setTimeout(() => {
+      mibtnref.current.style.borderWidth="3px";  
+      mibtnref.current.style.boxShadow="0px 0px 20px white";  
+    }, 500);ut
+    
+  }
+  
+ const wtbtnref=useRef();
+  const wtbtnclick =() => {
+
+    wtbtnref.current.style.boxShadow="0px 0px 20px white";  
+    wtbtnref.current.style.borderWidth=" 6px ";  
+    
+    setTimeout(() => {
+      wtbtnref.current.style.borderWidth="3px";  
+      wtbtnref.current.style.boxShadow="0px 0px 12px white";  
+    }, 500);ut
+    
+  }
+  
+ const gitbtnref=useRef();
+  const gitbtnclick =() => {
+
+    gitbtnref.current.style.boxShadow="0px 0px 20px white";  
+    gitbtnref.current.style.borderWidth=" 6px ";  
+    
+    setTimeout(() => {
+      gitbtnref.current.style.borderWidth="3px";  
+      gitbtnref.current.style.boxShadow="0px 0px 12px white";  
+    }, 500);ut
+    
+  }
+  
 
 return (
   <>
@@ -79,9 +118,9 @@ return (
 
           <div class=" text-5xl p-4 flex justify-end  gap-x-4 max-sm:mx-auto ">
 
-            <address> <a href="mailto:mahadevheighs9999@gmail.com"><img src={`${import.meta.env.BASE_URL}mail.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
-            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src={`${import.meta.env.BASE_URL}whatshapp.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
-            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src={`${import.meta.env.BASE_URL}github.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
+            <address> <a href="mailto:mahadevheighs9999@gmail.com"><img src={`${import.meta.env.BASE_URL}mail.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={mibtnref} onClick={mibtnclick} /></a></address>
+            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src={`${import.meta.env.BASE_URL}whatshapp.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={wtbtnref} onClick={wtbtnclick} /></a></address>
+            <address> <a href="" target='_blank'><img src={`${import.meta.env.BASE_URL}github.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={gitbtnref} onClick={gitbtnclick} /></a></address>
 
             
 

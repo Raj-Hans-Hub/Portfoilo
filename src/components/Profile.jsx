@@ -19,6 +19,35 @@ const Profile = () => {
   };
   
   }, []);
+
+  
+   const gitbtnref=useRef();
+    const gitbtnclick =() => {
+  
+      gitbtnref.current.style.boxShadow="0px 0px 20px white";  
+      gitbtnref.current.style.borderWidth=" 6px ";  
+      
+      setTimeout(() => {
+        gitbtnref.current.style.borderWidth="1px";  
+        gitbtnref.current.style.boxShadow="0px 0px 12px white";  
+      }, 500);ut
+      
+    }
+    
+    
+     const rebtnref=useRef();
+      const rebtnclick =() => {
+    
+        rebtnref.current.style.boxShadow="0px 0px 20px white";  
+        rebtnref.current.style.borderWidth=" 6px ";  
+        
+        setTimeout(() => {
+          rebtnref.current.style.borderWidth="1px";  
+          rebtnref.current.style.boxShadow="0px 0px 12px white";  
+        }, 500);ut
+        
+      }
+      
   return (
     <>
       <div id='home' className='  w-full  scroll-mt-30 container mx-auto md:justify-center md:items-center  md:flex max-sm:my-10  my-20 '>
@@ -32,11 +61,11 @@ const Profile = () => {
         <div className='text-2xl  '>and i'm a Frontend <span className='text-red-700'>wab</span> developer (Fresher)</div>
         <div className='text-2xl  h-20  '> <span className='text-indigo-400 ' ref={el}></span></div>
         
-        <div className=' h-[50px] flex gap-2.5' >
-          <button className='text-2xl  bg-blue-950  rounded-full  w-40 px-3 border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]'><FaGithub/> <span>Github</span>
+        <div className=' h-[50px]  w-full flex gap-2.5  ' >
+          <button className='text-2xl shadow-[0px_0px_12px_white]  bg-blue-950  rounded-full  w-38 px-3 border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]' ref={gitbtnref} onClick={gitbtnclick}><FaGithub/> <span>Github</span>
           </button>
           
-          <button className='text-2xl  bg-blue-950  rounded-full  w-40 px-3 border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]'><FaGithub/> <span>Resume</span>
+          <button className='text-2xl shadow-[0px_0px_12px_white]  bg-blue-950  rounded-full   w-38 px-3 border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]' ref={rebtnref} onClick={rebtnclick}><FaGithub/> <span>Resume</span>
           </button>
           
           
