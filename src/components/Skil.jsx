@@ -81,7 +81,7 @@ const Skil = () => {
                               {/* end taiwindcss bar conding */}
                               {/* start bootstrap bar conding */}
                             <div className="item w-full  gap-2 flex   items-center justify-center">
-                                <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}boots.jpeg`} alt="" className='h-[40px] w-[40px]  ' /> <span></span></div>
+                                <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}bootsb.jpeg`} alt="" className='h-[40px] w-[40px]  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
                                         <div className={` h-2.5 bg-violet-600 rounded-full transition-all delay-8000 ease-in-out duration-2000 ${show ? "w-[40%]" : "w-0"} `}></div>
@@ -91,7 +91,7 @@ const Skil = () => {
                               {/* end bootstrap bar conding */}
                               {/* start react bar conding */}
                             <div className="item w-full  gap-2 flex   items-center justify-center">
-                                <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}react.jpeg`} alt="" className='h-[40px] w-[40px] bg-black  ' /> <span></span></div>
+                                <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}reactb.jpeg`} alt="" className='h-[40px] w-[40px] bg-black  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
                                         <div className={` h-2.5 bg-blue-500 rounded-full transition-all delay-10000 ease-in-out duration-2000 ${show ? "w-[30%]" : "w-0"} `}></div>
