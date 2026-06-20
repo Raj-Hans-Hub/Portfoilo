@@ -8,22 +8,27 @@ const Projects = () => {
                 {/* start conding project row */}
                 <div className='flex gap-2  my-15 max-sm:my-0 p-5 px-10 flex flex-col justify-center items-center md:flex-row  '>
                     <div className="project_item_box    flex w-full">
-                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[150px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}weather.png`} alt="" className='h-[100px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
                         <div className="project_detail  font-semibold px-5 w-full">
-                            <h2 className='text-blue-400  text-2xl'>Tudo list</h2>
+                            <h2 className='text-blue-400  text-2xl'>Weather Port</h2>
                             <ul className='list-disc p-5 max-sm:p-0'>
-                                <li>Creat a Todo list using React.js</li>
-                                <li>Added features like add, delete and edit  </li>
+                                <li>Creat a Weather port app list using html, css and js</li>
+                                <li>Added features like fetch api   </li>
+                                <li>
+                                <li>  <a href="https://raj-hans-hub.github.io/weather" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/weather </a>  </li></li>
                             </ul>
                         </div>
                     </div>
                     <div className="project_item_box flex w-full">
-                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[150px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}todo2.png`} alt="" className='h-[100px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
                         <div className="project_detail  px-5 font-semibold w-full ">
-                            <h2 className='text-blue-400 text-2xl'>Spotify</h2>
+                            <h2 className='text-blue-400 text-2xl'>Todo List</h2>
                             <ul className='list-disc p-5 max-sm:p-0'>
-                                <li>Creat a Todo list using html, css, js</li>
-                                <li>Added features like api </li>
+                                <li>Creat a Todo list using React.js</li>
+                                <li>Added features like add , edit and delete  </li>
+                                 <li>
+                                <li>  <a href="https://raj-hans-hub.github.io/todo-list" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/todo-list </a>  </li></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -34,22 +39,27 @@ const Projects = () => {
                 <div className='flex gap-2 my-15 max-sm:my-0  px-10 flex flex-col justify-center items-center md:flex-row'>
 
                     <div className="project_item_box  flex w-full">
-                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[150px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}net.png`} alt="" className='h-[100px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
                         <div className="project_detail  font-semibold px-5 w-full">
-                            <h2 className='text-blue-400 text-2xl'>Tudo list</h2>
+                            <h2 className='text-blue-400 text-2xl'>Netflix </h2>
                             <ul className='list-disc p-5 max-sm:p-0'>
-                                <li>Creat a Todo list using React.js</li>
-                                <li>Added features like add, delete and edit  </li>
+                                <li>Clone  a netflix home page clone using html, css </li>
+                                
+                                <li>  <a href="https://raj-hans-hub.github.io/netflix" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/netflix </a>  </li>
+  
                             </ul>
                         </div>
                     </div>
                     <div className="project_item_box  flex w-full">
-                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[150px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}tw.png`} alt="" className='h-[100px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
                         <div className="project_detail  px-5 font-semibold w-full ">
-                            <h2 className='text-blue-400 text-2xl'>Spotify</h2>
+                            <h2 className='text-blue-400 text-2xl'>Twitter</h2>
                             <ul className='list-disc p-5 max-sm:p-0'>
-                                <li>Creat a Todo list using html, css, js</li>
-                                <li>Added features like api </li>
+                                <li>Clone  a Twitter home page  using html, taiwindcss</li>
+                                
+                                <li>
+                                <li>  <a href="https://raj-hans-hub.github.io/twitter" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/twitter </a>  </li></li>
+  
                             </ul>
                         </div>
                     </div>

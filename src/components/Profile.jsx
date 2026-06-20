@@ -61,12 +61,17 @@ const Profile = () => {
         <div className='text-2xl  '>and i'm a Frontend <span className='text-red-700'>wab</span> developer (Fresher)</div>
         <div className='text-2xl  h-20  '> <span className='text-indigo-400 ' ref={el}></span></div>
         
-        <div className=' h-[50px]  w-full flex gap-2.5  ' >
-          <button className='text-2xl shadow-[0px_0px_12px_white]  bg-blue-950  rounded-full  w-38 px-3 border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]' ref={gitbtnref} onClick={gitbtnclick}><FaGithub/> <span>Github</span>
+        <div className=' h-[60px]  w-full flex gap-2.5  ' >
+          <a href="https://github.com/Raj-Hans-Hub" target='_blank' className=''>
+          <button className='text-2xl shadow-[0px_0px_12px_white]  bg-blue-950  rounded-full  w-38 px-3 p-1.5  border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]' ref={gitbtnref} onClick={gitbtnclick}><FaGithub/> <span>Github</span>
           </button>
+          </a>
           
-          <button className='text-2xl shadow-[0px_0px_12px_white]  bg-blue-950  rounded-full   w-38 px-3 border cursor-pointer   hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]' ref={rebtnref} onClick={rebtnclick}><FaGithub/> <span>Resume</span>
+          <a href={`${import.meta.env.BASE_URL}resume.jpeg`} target='_blank'>
+
+          <button className='text-2xl shadow-[0px_0px_12px_white]  bg-blue-950  rounded-full   w-38 px-3 border cursor-pointer p-1.5  hover:border-6  hover:font-bold flex items-center-safe justify-center gap-2  hover:shadow-[0px_0px_20px_white]' ref={rebtnref} onClick={rebtnclick}> <span>Resume</span>
           </button>
+          </a>
           
           
           </div>

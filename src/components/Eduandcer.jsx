@@ -18,11 +18,11 @@ const Eduandcer = () => {
             </div>
         </div>
         <div className="project_item_box   flex w-full">
-            <div className="project_pic mx-auto   "><a href={`${import.meta.env.BASE_URL}stp.pdf`} target='_blank'><iframe src={`${import.meta.env.BASE_URL}stp.pdf`} alt="" className='h-[128px] w-[180px] shadow-[0_0_20px_rgba(255,255,255,0.9)]  pointer-events-none ' alt="" srcset="" /></a></div>
+            <div className="project_pic mx-auto   "><a href={`${import.meta.env.BASE_URL}stp.pdf`} target='_blank'><img src={`${import.meta.env.BASE_URL}s.jpg`} alt="" className='h-[128px] w-[180px] shadow-[0_0_20px_rgba(255,255,255,0.9)]  pointer-events-none ' alt="" srcset="" /></a></div>
             
         </div>
         <div className="project_item_box  flex w-full">
-            <div className="project_pic  mx-auto"><a href={`${import.meta.env.BASE_URL}hub.pdf`} target='_blank'><iframe src={`${import.meta.env.BASE_URL}hub.pdf`} alt="" className='h-[128px] w-[180px]  pointer-events-none shadow-[0_0_20px_rgba(255,255,255,0.9)]' alt="" srcset="" /></a></div>
+            <div className="project_pic  mx-auto "><a href={`${import.meta.env.BASE_URL}hub.pdf`} target='_blank'><img src={`${import.meta.env.BASE_URL}h.png`} alt="" className='h-[128px] w-[180px]  pointer-events-none shadow-[0_0_20px_rgba(255,255,255,0.9)]' alt="" srcset="" /></a></div>
             
         </div>
         </div>

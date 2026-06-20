@@ -120,7 +120,7 @@ return (
 
             <address> <a href="mailto:mahadevheighs9999@gmail.com"><img src={`${import.meta.env.BASE_URL}mail.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={mibtnref} onClick={mibtnclick} /></a></address>
             <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src={`${import.meta.env.BASE_URL}whatshapp.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={wtbtnref} onClick={wtbtnclick} /></a></address>
-            <address> <a href="" target='_blank'><img src={`${import.meta.env.BASE_URL}github.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={gitbtnref} onClick={gitbtnclick} /></a></address>
+            <address> <a href="https://github.com/Raj-Hans-Hub" target='_blank'><img src={`${import.meta.env.BASE_URL}github.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' ref={gitbtnref} onClick={gitbtnclick} /></a></address>
 
             
 
