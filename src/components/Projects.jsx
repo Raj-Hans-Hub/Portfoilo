@@ -51,14 +51,14 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="project_item_box  flex w-full">
-                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}tw.png`} alt="" className='h-[100px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+                        <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}tw2.png`} alt="" className='h-[100px] w-[200px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
                         <div className="project_detail  px-5 font-semibold w-full ">
-                            <h2 className='text-blue-400 text-2xl'>Twitter</h2>
+                            <h2 className='text-blue-400 text-2xl'>Text editer</h2>
                             <ul className='list-disc p-5 max-sm:p-0'>
-                                <li>Clone  a Twitter home page  using html, taiwindcss</li>
+                                <li>  a Text Editer </li>
                                 
                                 <li>
-                                <li>  <a href="https://raj-hans-hub.github.io/twitter" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/twitter </a>  </li></li>
+                                <li>  <a href="https://raj-hans-hub.github.io/textediter" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/textediter </a>  </li></li>
   
                             </ul>
                         </div>
