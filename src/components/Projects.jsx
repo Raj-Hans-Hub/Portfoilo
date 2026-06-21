@@ -27,7 +27,7 @@ const Projects = () => {
                                 <li>Creat a Todo list using React.js</li>
                                 <li>Added features like add , edit and delete  </li>
                                  <li>
-                                <li>  <a href="https://raj-hans-hub.github.io/todo-list" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/todo-list </a>  </li></li>
+                                <li>  <a href="https://raj-hans-hub.github.io/Todo-list" className='text-blue-700 underline'>Link: https://raj-hans-hub.github.io/Todo-list </a>  </li></li>
                                 
                             </ul>
                         </div>
